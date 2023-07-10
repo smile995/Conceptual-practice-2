@@ -42,13 +42,13 @@ list-style: none;
 .banner-info{
     text-align: center;
 }
-#tittle{
+.tittle{
     font-size: 60px;
     color: white;
     font-weight: 800;
     
 }
-#description{
+.description{
     color: white;
     padding: 15px;
     width: 40%;
@@ -70,4 +70,37 @@ list-style: none;
 }
 #Hire{
     color: red;
+}
+.service-contain{
+    height: 100vh;
+    background-image: url('asset/image/footer-bg.png'), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    display: flex;
+    padding: 50px;
+}
+.my-bio{
+    color: white;
+    width: 40%;
+}
+#service{
+    color: white;
+}
+div .profile-contain{
+    margin-bottom: 250px;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.info{
+    color: white;
+}
+.profile{
+    padding: 30px;
+}
+.graph-contain{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
 }
